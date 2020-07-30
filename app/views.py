@@ -17,7 +17,7 @@ def sendmail(request):
     send_mail(
         subject = 'That’s your subject', #Get from notifier model
         message = 'That’s your message body Here you can add anything!!!!!!', #Get from notifier model
-        from_email = 'progressboardtanish@gmail.com',
+        from_email = 'notifyer@notifyed.co',
         recipient_list = ['tycoonhawk98@gmail.com',],
         # auth_user = 'Login'
         # auth_password = 'Password'
